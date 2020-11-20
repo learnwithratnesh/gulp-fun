@@ -1,0 +1,12 @@
+{
+  "name": "gulp-runner",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ratnesh",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "gulp-concat": "^2.6.1"
+  }
+}
