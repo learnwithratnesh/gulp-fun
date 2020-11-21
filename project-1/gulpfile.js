@@ -6,8 +6,8 @@ var concat = require('gulp-concat');
 gulp.task('sass', function() {
     return gulp.src('src/scss/**/*.scss') // Gets all files ending with .scss in app/scss and children dirs
       .pipe(sass())
-      .pipe(gulp.dest('dist/app/css'),{append:true})
       .pipe(concat('output.css'))
+      .pipe(gulp.dest('dist/app/css'),{append:true})
   })
 
   gulp.task('watch', function(){

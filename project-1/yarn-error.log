@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: EACCES: permission denied, unlink '/Users/ratneshtiwari/projects/gulp/node_modules/.bin/color-support'
+  Error: EACCES: permission denied, unlink '/Users/ratneshtiwari/projects/gulp/project-1/node_modules/.bin/atob'
 
 npm manifest: 
   {
@@ -26,7 +26,8 @@ npm manifest:
     "dependencies": {
       "gulp": "^4.0.2",
       "gulp-sass": "^4.1.0",
-      "gulp-concat": "^2.6.1"
+      "gulp-concat": "^2.6.1",
+      "gulp-uglify": "^3.0.2"
     }
   }
 
